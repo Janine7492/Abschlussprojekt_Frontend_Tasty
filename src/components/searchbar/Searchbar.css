@@ -1,0 +1,129 @@
+.searchbarWrapper {
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 12px 1px rgba(159, 158, 158, 0.15);
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+}
+
+.searchbarWrapper input {
+    border: none;
+    width: 95%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    border-radius: 0 25px 25px 0;
+}
+
+.lupe {
+    align-self: center;
+    margin-left: 1rem;
+}
+
+.imgCloud {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem;
+    text-align: center;
+}
+
+.imgCloud img {
+    margin-top: 0.5rem;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.imgCloud a {
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem 2rem 0.5rem;
+
+}
+
+.imgCloud p {
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 auto;
+    padding: 0.5rem 0 0.5rem 0;
+
+}
+
+.imgCloud {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem;
+    text-align: center;
+}
+
+.imgCloud img {
+    margin-top: 0.5rem;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.imgCloud a {
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem 2rem 0.5rem;
+
+}
+
+.imgCloud p {
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 auto;
+    padding: 0.5rem 0 0.5rem 0;
+
+}
+
+
+
+.returnMsg {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 1.5rem auto;
+    width: 85%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+    .recipeCard {
+        /* width: 85%; */
+    }
+
+    .imgCloud {
+        margin: 2rem;
+    }
+
+    .imgCloud a {
+        margin: 2rem
+    }
+
+    .searchbarWrapper {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .searchbarWrapper input {
+        font-size: 1.2rem;
+    }
+
+    .searchHeader a {
+        position: absolute;
+        left: 2rem;
+    }
+
+    .searchHeader h2 {
+        width: 100%;
+        text-align: center;
+    }
+}

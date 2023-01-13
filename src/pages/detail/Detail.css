@@ -1,0 +1,130 @@
+.detailsShown {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.detailsShown p {
+    padding: 0.5rem 1rem;
+    box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 15%);
+    border-radius: 10px;
+    margin: 1rem 0;
+
+}
+
+.detailsShown article {
+    padding: 1rem;
+}
+
+.detailsMainSec {
+    margin: 0.5rem 0 1rem 0;
+}
+
+.detailsShown section {
+    box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 15%);
+    border-radius: 25px;
+    box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 15%);
+}
+
+.detailsShown article img {
+    width: 100%;
+    border-radius: 30px;
+
+    padding: 5% 5% 0 5%;
+}
+
+.detailsShown article h2 {
+    color: black;
+    padding: 1% 0 5% 10%;
+}
+
+.detailsHidden {
+    display: none;
+}
+
+.detailsWrapper {
+    width: 100%;
+}
+
+.detailsBgPic {
+    height: 50vh;
+    margin-bottom: -30px;
+    position: abolute;
+    top: 0;
+}
+
+.detailsBgPic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detailsLowerPart {
+    border-radius: 40px 40px 0 0;
+    background-color: whitesmoke;
+    width: 100%;
+    min-height: 65vh;
+    padding: 2rem 2rem 12vh 2rem;
+    position: absolute;
+    top: 40vh;
+}
+
+.detailsTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0A2533;
+    margin-bottom: 0.5rem;
+}
+
+.detailsMedium {
+    color: #748189;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+
+.detailsLight {
+    color: #748189;
+    font-weight: 350;
+    font-size: 16px;
+}
+
+.detailsSwitch {
+    margin: 1rem 0;
+    background-color: #E6EbF2;
+    border-radius: 15px;
+}
+
+/* #042628; */
+
+
+.detailsSwitch button {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    /* background-color: #E6EbF2; */
+    width: 50%;
+}
+
+.buttonActive {
+    background-color: #042628;
+    color: #fafafa;
+}
+
+.buttonInactive {
+    background-color: none;
+    color: #042628;
+}
+
+.video {
+    background-color: #70B9BE;
+    color: #fafafa;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0;
+}

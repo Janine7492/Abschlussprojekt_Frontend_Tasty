@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../../assets//fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.centerImg {
+    width: 90%;
+    display: block;
+    padding-top: 10%;
+    padding-bottom: 9%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landing {
+    background-color: rgb(61, 160, 167, 1);
+    background-image: url(../../assets/img/Splash_Screen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.whiteSection {
+    background-color: white;
+    border-radius: 25px 25px 0 0;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35%;
+    gap: 25px;
+}
+
+.lanTitel {
+    font-family: Montserrat;
+    font-size: 1.5em;
+    text-align: center;
+    /* padding: 1.6rem 0 0 0; */
+    padding-top: 25px;
+    font-weight: bolder;
+    /* der fontweight-wert wird hier nicht angenommen. in der h2 funktioniert er aber. cool */
+}
+
+.lanSub {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 0.9em;
+    color: #97A2B0;
+    /* padding: 1.4rem 0 0 0; */
+    font-weight: lighter;
+    line-height: 1.4rem;
+}
+
+.getStarted {
+    font-family: Montserrat;
+    background-color: #042628;
+    color: white;
+    width: 280px;
+    height: 50px;
+    border-radius: 15px;
+    /* margin: 0.4rem auto; */
+    /* margin: 1.8rem 0 0 0; */
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1rem;
+    border-style: none;
+
+}
